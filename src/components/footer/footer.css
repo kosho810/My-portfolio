@@ -1,0 +1,33 @@
+footer {
+    color: var(--subtitleColor);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+ footer button.scroll-top{
+    background-color: var(--blue);
+    color: rgba(31, 29, 29, 0.952);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    border: 1px solid var(--titleColor);
+}
+footer button.scroll-top:hover{
+    background-color: rgb(26, 138, 236);
+}
+
+.light footer button.scroll-top{
+    background-color: rgba(89, 87, 87, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+   
+}
+
+@media (max-width:900px){
+    footer button.scroll-top{
+        opacity: 0.4;
+    }
+}
