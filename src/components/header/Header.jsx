@@ -27,7 +27,7 @@ export default function Header() {
                 <div />
                 <nav >
                     <ul className='flex'>
-                        <li><a href="">Abour</a></li>
+                        <li><a href="">About</a></li>
                         <li><a href="#skills-sec">Skills</a></li>
                         <li><a href="#projects">Projects</a></li>
 
@@ -56,7 +56,7 @@ export default function Header() {
                         <ul className="modal ">
                             <li><button className='icon-close' href="" onClick={() => { setShowModal(false) }}></button></li>
                             <li><a onClick={() => { setShowModal(false) }} href="">About</a></li>
-                            <li><a onClick={() => { setShowModal(false) }} href="">Skills</a></li>
+                            <li><a onClick={() => { setShowModal(false) }} href="#skills-sec">Skills</a></li>
                             <li><a onClick={() => { setShowModal(false) }} href="#projects">Projects</a></li>
                             <li><a onClick={() => { setShowModal(false) }} href="#contact">Contact</a></li>
                         </ul>
